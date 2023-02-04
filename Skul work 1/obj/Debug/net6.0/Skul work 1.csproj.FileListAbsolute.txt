@@ -1,0 +1,15 @@
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.csproj.AssemblyReference.cache
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.AssemblyInfoInputs.cache
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.AssemblyInfo.cs
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.csproj.CoreCompileInputs.cache
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\bin\Debug\net6.0\Skul work 1.exe
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\bin\Debug\net6.0\Skul work 1.deps.json
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\bin\Debug\net6.0\Skul work 1.runtimeconfig.json
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\bin\Debug\net6.0\Skul work 1.dll
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\bin\Debug\net6.0\Skul work 1.pdb
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.dll
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\refint\Skul work 1.dll
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.pdb
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\Skul work 1.genruntimeconfig.cache
+C:\Users\ggggg\Documents\Home Workl\Skul work 1\obj\Debug\net6.0\ref\Skul work 1.dll
