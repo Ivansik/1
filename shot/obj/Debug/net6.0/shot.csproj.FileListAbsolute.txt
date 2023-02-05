@@ -1,0 +1,15 @@
+C:\Users\ggggg\Documents\Home Workl\shot\bin\Debug\net6.0\shot.exe
+C:\Users\ggggg\Documents\Home Workl\shot\bin\Debug\net6.0\shot.deps.json
+C:\Users\ggggg\Documents\Home Workl\shot\bin\Debug\net6.0\shot.runtimeconfig.json
+C:\Users\ggggg\Documents\Home Workl\shot\bin\Debug\net6.0\shot.dll
+C:\Users\ggggg\Documents\Home Workl\shot\bin\Debug\net6.0\shot.pdb
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.csproj.AssemblyReference.cache
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.AssemblyInfoInputs.cache
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.AssemblyInfo.cs
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.csproj.CoreCompileInputs.cache
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.dll
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\refint\shot.dll
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.pdb
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\shot.genruntimeconfig.cache
+C:\Users\ggggg\Documents\Home Workl\shot\obj\Debug\net6.0\ref\shot.dll
