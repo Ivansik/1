@@ -12,7 +12,7 @@ int z1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите координаты x2:");
 int x2 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите координаты y2:");
-int y2 = int.Parse(Console.ReadLine()!);
+int y2 = int.Parse(Console.Re21adLine()!);
 Console.WriteLine("Введите координаты z2:");
 int z2 = int.Parse(Console.ReadLine()!);
 
