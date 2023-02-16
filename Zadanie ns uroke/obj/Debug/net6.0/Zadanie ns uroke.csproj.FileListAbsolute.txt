@@ -1,0 +1,15 @@
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\bin\Debug\net6.0\Zadanie ns uroke.exe
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\bin\Debug\net6.0\Zadanie ns uroke.deps.json
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\bin\Debug\net6.0\Zadanie ns uroke.runtimeconfig.json
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\bin\Debug\net6.0\Zadanie ns uroke.dll
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\bin\Debug\net6.0\Zadanie ns uroke.pdb
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.csproj.AssemblyReference.cache
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.AssemblyInfoInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.AssemblyInfo.cs
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.csproj.CoreCompileInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.dll
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\refint\Zadanie ns uroke.dll
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.pdb
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\Zadanie ns uroke.genruntimeconfig.cache
+C:\Users\ggggg\Desktop\Home Workl\Zadanie ns uroke\obj\Debug\net6.0\ref\Zadanie ns uroke.dll
