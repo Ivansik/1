@@ -1,0 +1,15 @@
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\bin\Debug\net6.0\Home work 66.exe
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\bin\Debug\net6.0\Home work 66.deps.json
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\bin\Debug\net6.0\Home work 66.runtimeconfig.json
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\bin\Debug\net6.0\Home work 66.dll
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\bin\Debug\net6.0\Home work 66.pdb
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.csproj.AssemblyReference.cache
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.AssemblyInfoInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.AssemblyInfo.cs
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.csproj.CoreCompileInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.dll
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\refint\Home work 66.dll
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.pdb
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\Home work 66.genruntimeconfig.cache
+C:\Users\ggggg\Desktop\Home Workl\Home work 66\obj\Debug\net6.0\ref\Home work 66.dll
