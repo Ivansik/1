@@ -1,0 +1,15 @@
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\bin\Debug\net6.0\Itogova Home work ;-;.exe
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\bin\Debug\net6.0\Itogova Home work ;-;.deps.json
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\bin\Debug\net6.0\Itogova Home work ;-;.runtimeconfig.json
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\bin\Debug\net6.0\Itogova Home work ;-;.dll
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\bin\Debug\net6.0\Itogova Home work ;-;.pdb
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.csproj.AssemblyReference.cache
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.AssemblyInfoInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.AssemblyInfo.cs
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.csproj.CoreCompileInputs.cache
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.dll
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\refint\Itogova Home work ;-;.dll
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.pdb
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\Itogova Home work ;-;.genruntimeconfig.cache
+C:\Users\ggggg\Desktop\Home Workl\Itogova Home work ;-;\obj\Debug\net6.0\ref\Itogova Home work ;-;.dll
