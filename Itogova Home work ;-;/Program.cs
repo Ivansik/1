@@ -2,14 +2,16 @@
 Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.*/
 Console.Clear();
-void SecondArrayWithIF(string[] arr, string[] inArray)
+string[] array1 = new string[5] {"123", "345", "hello", "world", "res"};
+string[] array2 = new string[array1.Length];
+void SecondArrayWithIF(string[] array1, string[] array2)
 {
     int count = 0;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < array1.Length; i++)
     {
-    if(arr[i].Length <= 3)
+    if(array1[i].Length <= 3)
         {
-        inArray[count] = arr[i];
+        array2[count] = array1[i];
         count++;
         }
     }
@@ -22,7 +24,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-string[] arr = new string[10] {"", "При", "Шиш", "Ур", "Игра", "Чат", "Бот", "Сл", "Зи", ""};
-string[] inArray = new string[arr.Length];
-SecondArrayWithIF(arr, inArray);
-PrintArray(inArray);
+SecondArrayWithIF(array1, array2);
+PrintArray(array2);
