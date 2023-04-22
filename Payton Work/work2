@@ -1,0 +1,7 @@
+#a = [int(i) for i in input().split()]
+#print(a)
+
+##a = ['a,b,d,a,b,d,w,w,a']
+#sam = 0
+#if a
+#print (a)
