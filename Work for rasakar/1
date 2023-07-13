@@ -1,0 +1,31 @@
+API
+  REST
+
+  https://site.ru
+  GET - https://site.ru/api/users
+  POST - https://site.ru/api/users
+  GET - https://site.ru/api/users/123
+  PATCH - https://site.ru/api/users/123
+  PUT - https://site.ru/api/users/123
+  DELETE - https://site.ru/api/users/123
+
+  GET - https://site.ru/api/users/123
+  me <------> webserver (nginx) <-------> php <------> db
+
+  $user = [
+    'id' => 123,
+    'name' => 'Павел',
+    'age' => 33,
+  ];
+
+  "123,Павел,33"
+  "id=123,name=Павел,age=33"
+
+  <?xml version="1.0"?>
+  <user>
+    <id>123</id>
+    <name>Павел</name>
+    <age>33</age>
+  </user>
+
+  `{"id":123,"name":"Павел","age":33}`
