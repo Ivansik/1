@@ -1,0 +1,20 @@
+class Answer 
+    public static StringBuilder answer(String JSON, String ELEMENT1, String ELEMENT2, String ELEMENT3)
+        // Напишите свое решение ниже
+        // "фамилия":"Иванов","оценка":"5","предмет":"Математика"
+        
+        result = result.replaceAll("\"", ""); // Убираем лишние символы
+        result = result.replaceAll(":", " ");
+        result = result.replaceAll(",", " ");
+
+        String[] arr = result.split(" "); // Сплитим строку в массив
+        StringBuilder show_str = new StringBuilder();
+
+        for (int i = 0; i < arr.length; i++) 
+            if (arr[i].equals("фамилия")) {
+                show_str.append("Студент " + arr[i + 1] + " ");
+            } else if (arr[i].equals("оценка")) {
+                show_str.append("получил " + arr[i + 1] + " ");
+            } else if (arr[i].equals("предмет")) {
+                show_str.append("по предмету " + arr[i + 1] + "\n");
+    }

@@ -1,0 +1,39 @@
+public static void main(String[] args) {
+        Item item1 = new Item("qwe", "asd", 5);
+        Item item2 = new Item("qwe2", "asd2", 5);
+        Item item3 = new Item("qwe3", "asd", 5);
+        Item item4 = new Item("qwe4", "asd2", 5);
+        Item item5 = new Item("qwe", "zzxc", 50);
+        List<Item> items = new ArrayList<>();
+        items.add(item1);
+        items.add(item2);
+        items.add(item3);
+        items.add(item4);
+        items.add(item5);
+        System.out.println("items = " + items);
+        Scanner scanner = new Scanner(System.in);
+        String searchParam = scanner.nextLine();
+        itemCalc(items, searchParam);
+    }
+
+    /**
+     * @param items       список товаров
+     * @param searchParam параметрдля поиска по имени
+     * @apiNote 1.Даны сведения об экспортируемых товарах: указывается наименование товара, страна,
+     * экспортирующая товар,
+     * и объем поставляемой партии в штуках. Найти страны, которые экспортируют данный(введенный с кл-ы) товар,
+     * и общий объем его экспорта.
+     */
+
+    private static void itemCalc(List<Item> items, String searchParam) {
+        int sumExportVolume = 0;
+        List<String> countryList = new ArrayList<>();
+        for (int i = 0; i < items.size(); i++) {
+            if (searchParam.equals(items.get(i).getName())) {
+                sumExportVolume += items.get(i).getVolume();
+                countryList.add(items.get(i).getCountry());
+            }
+        }
+        System.out.println("countryList = " + countryList);
+        System.out.println("sumExportVolume = " + sumExportVolume);
+    }
