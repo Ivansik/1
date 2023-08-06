@@ -1,0 +1,66 @@
+import java.util.Scanner;
+import java.util.logging.*;
+
+public class Calculator {
+    private static final Logger LOGGER = Logger.getLogger(Calculator.class.getName());
+
+    public static void main(String[] args) {
+        // Настройка системы логирования
+        LogManager.getLogManager().reset();
+        LOGGER.setLevel(Level.ALL);
+        ConsoleHandler consoleHandler = new ConsoleHandler();
+        consoleHandler.setLevel(Level.ALL);
+        LOGGER.addHandler(consoleHandler);
+
+        Scanner scanner = new Scanner(System.in);
+
+        LOGGER.info("Простой калькулятор на Java");
+        LOGGER.info("Доступные операции: +, -, *, /");
+
+        while (true) {
+            LOGGER.info("Введите первое число:");
+            double num1 = scanner.nextDouble();
+
+            LOGGER.info("Введите операцию (+, -, *, /):");
+            String operation = scanner.next();
+
+            LOGGER.info("Введите второе число:");
+            double num2 = scanner.nextDouble();
+
+            double result = 0.0;
+
+            switch (operation) {
+                case "+":
+                    result = num1 + num2;
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    break;
+                case "*":
+                    result = num1 * num2;
+                    break;
+                case "/":
+                    if (num2 != 0) {
+                        result = num1 / num2;
+                    } else {
+                        LOGGER.warning("Ошибка: деление на ноль");
+                        continue;
+                    }
+                    break;
+                default:
+                    LOGGER.warning("Ошибка: недопустимая операция");
+                    continue;
+            }
+
+            LOGGER.info("Результат: " + result);
+
+            LOGGER.info("Хотите продолжить? (да/нет)");
+            String again = scanner.next();
+            if (!again.equalsIgnoreCase("да")) {
+                break;
+            }
+        }
+
+        LOGGER.info("Конец программы");
+    }
+}

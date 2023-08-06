@@ -1,0 +1,72 @@
+class Toy:
+    def __init__(self, name, description, category, manufacturer, price, weight):
+        self.name = name
+        self.description = description
+        self.category = category
+        self.manufacturer = manufacturer
+        self.price = price
+        self.weight = weight
+
+class ToyStore:
+    def __init__(self):
+        self.inventory = []
+
+    def add_toy(self, toy):
+        self.inventory.append(toy)
+        print(f"{toy.name} has been added to the inventory.")
+
+    def set_toy_weight(self, toy_name, new_weight):
+        for toy in self.inventory:
+            if toy.name == toy_name:
+                toy.weight = new_weight
+                print(f"The weight of {toy.name} has been updated to {toy.weight} kg.")
+                return
+        print(f"{toy_name} not found in the inventory.")
+
+    def display_inventory(self):
+        if self.inventory:
+            print("\nInventory:")
+            for toy in self.inventory:
+                print(f"Name: {toy.name}, Category: {toy.category}, Weight: {toy.weight} kg")
+        else:
+            print("Inventory is empty.")
+
+def main():
+    store = ToyStore()
+
+    while True:
+        print("\nToy Store Management System")
+        print("1. Add Toy")
+        print("2. Set Toy Weight")
+        print("3. Display Inventory")
+        print("4. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            name = input("Enter toy name: ")
+            description = input("Enter toy description: ")
+            category = input("Enter toy category: ")
+            manufacturer = input("Enter toy manufacturer: ")
+            price = float(input("Enter toy price: "))
+            weight = float(input("Enter toy weight (kg): "))
+            new_toy = Toy(name, description, category, manufacturer, price, weight)
+            store.add_toy(new_toy)
+
+        elif choice == "2":
+            toy_name = input("Enter toy name: ")
+            new_weight = float(input("Enter new toy weight (kg): "))
+            store.set_toy_weight(toy_name, new_weight)
+
+        elif choice == "3":
+            store.display_inventory()
+
+        elif choice == "4":
+            print("Exiting the program.")
+            break
+
+        else:
+            print("Invalid choice. Please select a valid option.")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,127 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Toy {
+    private String name;
+    private String description;
+    private String category;
+    private String manufacturer;
+    private double price;
+    private double weight;
+
+    public Toy(String name, String description, String category, String manufacturer, double price, double weight) {
+        this.name = name;
+        this.description = description;
+        this.category = category;
+        this.manufacturer = manufacturer;
+        this.price = price;
+        this.weight = weight;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+}
+
+class ToyStore {
+    private List<Toy> inventory;
+
+    public ToyStore() {
+        inventory = new ArrayList<>();
+    }
+
+    public void addToy(Toy toy) {
+        inventory.add(toy);
+        System.out.println(toy.getName() + " has been added to the inventory.");
+    }
+
+    public void setToyWeight(String toyName, double newWeight) {
+        for (Toy toy : inventory) {
+            if (toy.getName().equals(toyName)) {
+                toy.setWeight(newWeight);
+                System.out.println("The weight of " + toy.getName() + " has been updated to " + toy.getWeight() + " kg.");
+                return;
+            }
+        }
+        System.out.println(toyName + " not found in the inventory.");
+    }
+
+    public void displayInventory() {
+        if (!inventory.isEmpty()) {
+            System.out.println("\nInventory:");
+            for (Toy toy : inventory) {
+                System.out.println("Name: " + toy.getName() + ", Category: " + toy.getCategory() + ", Weight: " + toy.getWeight() + " kg");
+            }
+        } else {
+            System.out.println("Inventory is empty.");
+        }
+    }
+}
+
+public class ToyStoreRaffle {
+    public static void main(String[] args) {
+        ToyStore store = new ToyStore();
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("\nToy Store Raffle System");
+            System.out.println("1. Add Toy");
+            System.out.println("2. Set Toy Weight");
+            System.out.println("3. Display Inventory");
+            System.out.println("4. Exit");
+
+            System.out.print("Enter your choice: ");
+            int choice = scanner.nextInt();
+
+            switch (choice) {
+                case 1:
+                    scanner.nextLine(); // Consume the newline character
+                    System.out.print("Enter toy name: ");
+                    String name = scanner.nextLine();
+                    System.out.print("Enter toy description: ");
+                    String description = scanner.nextLine();
+                    System.out.print("Enter toy category: ");
+                    String category = scanner.nextLine();
+                    System.out.print("Enter toy manufacturer: ");
+                    String manufacturer = scanner.nextLine();
+                    System.out.print("Enter toy price: ");
+                    double price = scanner.nextDouble();
+                    System.out.print("Enter toy weight (kg): ");
+                    double weight = scanner.nextDouble();
+                    Toy newToy = new Toy(name, description, category, manufacturer, price, weight);
+                    store.addToy(newToy);
+                    break;
+
+                case 2:
+                    scanner.nextLine(); // Consume the newline character
+                    System.out.print("Enter toy name: ");
+                    String toyName = scanner.nextLine();
+                    System.out.print("Enter new toy weight (kg): ");
+                    double newWeight = scanner.nextDouble();
+                    store.setToyWeight(toyName, newWeight);
+                    break;
+
+                case 3:
+                    store.displayInventory();
+                    break;
+
+                case 4:
+                    System.out.println("Exiting the program.");
+                    scanner.close();
+                    System.exit(0);
+
+                default:
+                    System.out.println("Invalid choice. Please select a valid option.");
+            }
+        }
+    }
+}

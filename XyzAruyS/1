@@ -1,0 +1,45 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+def register_acanths(username, password, email):
+    try:
+        # Replace 'your_website_url' with the actual URL of the registration page
+        driver = webdriver.Chrome()
+        driver.get('your_website_url')
+
+        # Assuming the registration page has fields with the following IDs (you may need to adapt these to your specific website)
+        username_field = driver.find_element_by_id('username')
+        password_field = driver.find_element_by_id('password')
+        email_field = driver.find_element_by_id('email')
+        submit_button = driver.find_element_by_id('submit')
+
+        # Fill in the registration form
+        username_field.send_keys(username)
+        password_field.send_keys(password)
+        email_field.send_keys(email)
+
+        # Submit the form
+        submit_button.click()
+
+        # Wait for registration success message or any other indication that the registration was successful
+        # Replace 'success_message_id' with the ID of the success message element
+        success_message = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, 'success_message_id'))
+        )
+
+        print("Registration successful!")
+    except Exception as e:
+        print(f"Registration failed: {e}")
+    finally:
+        # Close the browser after completion
+        driver.quit()
+
+if __name__ == "__main__":
+    # Replace the following values with the desired username, password, and email for registration
+    username = "your_desired_username"
+    password = "your_desired_password"
+    email = "your_email@example.com"
+
+    register_acanths(username, password, email)

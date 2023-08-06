@@ -1,0 +1,22 @@
+import pyautogui
+import keyboard
+
+def click_at(x, y):
+    try:
+        pyautogui.click(x=x, y=y, duration=0.2)
+        print(f"Mouse click at coordinates ({x}, {y})")
+    except pyautogui.FailSafeException:
+        print("The mouse is moving too fast. Aborting!")
+
+if __name__ == "__main__":
+    # Replace the values below with the desired coordinates
+    click_x = 500
+    click_y = 500
+
+    print("Press 'q' to stop the loop.")
+
+    while True:
+        if keyboard.is_pressed("q"):
+            print("Stopping the loop...")
+            break
+        click_at(click_x, click_y)
